@@ -1,0 +1,19 @@
+{
+    "device": "auto",  // or hardcode with "cuda", "cpu", "tpu"
+    "data_paths": {
+        "operational_data": "data/operational_data.csv",
+        "environmental_data": "data/environmental_data.csv",
+        "failure_records": "data/failure_records.csv",
+        "maintenance_logs": "data/maintenance_logs.csv",
+        "operator_notes": "data/operator_notes.csv",
+        "new_operational_data": "data/new_operational_data.csv",
+        "new_environmental_data": "data/new_environmental_data.csv"
+    },
+    "model_save_path": "models/trained_lstm_model.h5",
+    "scaler_save_path": "models/scaler.pkl",
+    "sequence_length": 50,
+    "epochs": 50,
+    "batch_size": 64,
+    "n_clusters": 5
+}
+    
